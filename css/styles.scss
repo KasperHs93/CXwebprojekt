@@ -29,3 +29,9 @@
   background-color: blue!important;
 }
 
+
+.abs-center-x {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
