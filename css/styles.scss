@@ -2,6 +2,21 @@
   box-sizing: border-box;
 }
 
+// Import af andre stylesheets //
+@import "Licenstyper";
+@import "Support";
+@import "Bestilnu";
+@import "Håndbogen";
+@import "Værktøjskassen";
+@import "Rådgivning";
+@import "Teamet";
+@import "Partnere";
+@import "Fællesvision";
+@import "Referencer";
+@import "kontakt";
+@import "logind";
+
+// General Styling af alle sider //
 
 .overskrift1, .Overskrift2 {
   text-align: center!important;
@@ -12,9 +27,5 @@
   width: 25%!important;
   height: 2px !important;
   background-color: blue!important;
-}
-
-.card-deck {
-  border: none;
 }
 
