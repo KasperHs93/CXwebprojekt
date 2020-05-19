@@ -2,20 +2,6 @@
   box-sizing: border-box;
 }
 
-// Import af andre stylesheets //
-@import "Licenstyper";
-@import "Support";
-@import "Bestilnu";
-@import "Håndbogen";
-@import "Værktøjskassen";
-@import "Rådgivning";
-@import "Teamet";
-@import "Partnere";
-@import "Fællesvision";
-@import "Referencer";
-@import "kontakt";
-@import "logind";
-
 // General Styling af alle sider //
 
 .overskrift1, .Overskrift2 {
@@ -31,3 +17,94 @@
   background-color: blue!important;
 }
 
+// Forside styling //
+#Mig {
+  width: 600px;
+  height: 400px;
+}
+
+@media only screen and (max-width: 420px) {
+
+  #Mig {
+    display: none;
+  }
+
+}
+
+#btnjumbo1, #btnjumbo2 {
+  color: white;
+  align-content: center!important;
+}
+
+// Forside styling slut //
+
+
+
+// styling til Licenstyper //
+
+// styling til Licenstyper slut //
+
+
+// styling til Support //
+
+// styling til Support slut //
+
+
+
+// styling til bestil nu //
+
+// styling til bestil nu slut //
+
+
+
+// styling til håndbogen //
+
+// styling til håndbogen slut //
+
+
+
+// styling til værktøjskassen //
+
+// styling til Værktøjskassen slut //
+
+
+
+// styling til rådgivning //
+
+// styling til rådgivning slut //
+
+
+
+// styling til om teamet //
+
+// styling til om teamet slut //
+
+
+
+// styling til partnere //
+
+// styling til partnere slut //
+
+
+
+// styling til fælles vision //
+
+// styling til fælles vision slut //
+
+
+
+// styling til referencer //
+
+// styling til referencer slut //
+
+
+
+// styling til kontaktside //
+
+// styling til kontaktside slut //
+
+
+
+// styling til log ind //
+
+// styling til log ind slut //
