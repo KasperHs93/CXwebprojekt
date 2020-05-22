@@ -14,7 +14,7 @@
 <body>
 
 
-
+<!-- navbar !-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
     <!-- CxWeb Logo i Navbar !-->
@@ -30,13 +30,13 @@
 
         <ul class="navbar-nav m-auto ">
 
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="index.html">Forside <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    |  Produkter
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink38" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Produkter
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -47,8 +47,8 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    |  Comissioning
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink39" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Comissioning
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -59,8 +59,8 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    |  Om CXWeb
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink40" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Om CXWeb
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -72,18 +72,25 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="kontakt.html">|  Kontakt</a>
+                <a class="nav-link" href="kontakt.html"> Kontakt</a>
             </li>
         </ul>
-        <ul class="navbar-nav ">
-            <li class="nav-item">
-                <a class="nav-link" href="logind.html">|  Log ind</a>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown dropleft">
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink41" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user"></i> Log ind
+                </a>
+
+                <div class="dropdown-menu">
+                    <form class="form-horizontal" method="post" accept-charset="UTF-8">
+                        <input class="form-control login" type="text" name="username" placeholder="Username.."><br>
+                        <input class="form-control login" type="password" name="password" placeholder="Password.."><br>
+                        <input class="btn btn-dark" type="submit" name="submit" value="Login">
+                    </form>
+                </div>
             </li>
         </ul>
-
-
     </div>
-
 </nav>
 
 
