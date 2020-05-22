@@ -5,11 +5,11 @@
     <title>CxWeb.dk</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Css links !-->
+    <script src="https://kit.fontawesome.com/9fb770a5e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 <body>
@@ -31,13 +31,13 @@
 
         <ul class="navbar-nav m-auto ">
 
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="index.html">Forside <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  |  Produkter
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Produkter
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -48,8 +48,8 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  |  Comissioning
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                   Comissioning
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -60,8 +60,8 @@
             </li>
 
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  |  Om CXWeb
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Om CXWeb
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -73,18 +73,25 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="kontakt.html">|  Kontakt</a>
+                <a class="nav-link" href="kontakt.html"> Kontakt</a>
             </li>
         </ul>
-            <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="logind.html">|  Log ind</a>
+        <ul class="navbar-nav">
+            <li class="nav-item dropdown dropleft">
+                <a class="nav-link " href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-user"></i> Log ind
+                </a>
+
+                <div class="dropdown-menu">
+                    <form class="form-horizontal" method="post" accept-charset="UTF-8">
+                        <input class="form-control login" type="text" name="username" placeholder="Username.."><br>
+                        <input class="form-control login" type="password" name="password" placeholder="Password.."><br>
+                        <input class="btn btn-dark" type="submit" name="submit" value="Login">
+                    </form>
+                </div>
             </li>
         </ul>
-
-
     </div>
-
 </nav>
 
 
@@ -97,16 +104,17 @@
         <div class="row">
 
             <div class=" col-md-6 col-sm-12">
-                <h3 class="display-3">Software byggeri FM</h3>
-                <p class="lead">Digital Commissioning/Tværfaglig Byggestyring</p>
+                <h3 class="display-3 col-sm">Software byggeri FM</h3>
+                <p class="lead1">Digital Commissioning/Tværfaglig Byggestyring</p>
                 <p>CXweb som stand-alone for at optimere commissioning eller som samlet løsning der udfylder alle digitale behov</p>
 
                 <a class="btn btn-dark btn-lg" id="btnjumbo1" role="button">Lær mere</a>
                 <a class="btn btn-dark btn-lg " id="btnjumbo2" role="button">Log ind</a>
 
-            </div><div class="col-4 text-right">
-
-            <img src="img/macbookpro.png" id="Mig"  alt="macbook pro"/></div>
+            </div>
+            <div class="col-4 text-right">
+            <img src="img/macbookpro.png"  id="Mig" alt="macbook pro"/>
+            </div>
             
         </div>
     </div>
@@ -129,26 +137,39 @@
 
 <!-- kort info om CXWEB produkter + ikoner  !-->
 
-<div class="card-deck mx-auto">
+<div class="card-deck  mx-auto">
 
-    <div class="card bg-primary">
-        <div class="card-body text-center">
-            <img src="img/Struktureret%20Icons-155.png">
-            <p class="card-text">Some text inside the first card</p>
+    <div class="card">
+        <div class="card-body  text-center">
+            <img src="img/Struktureret%20Icons-155.png" alt="Boxlogo">
+            <div class="O-CXprodukter"><h2>CXWeb's produkter</h2></div>
+            <p class="card-text">En tværfaglig processtyringsplatform til byggeri og bygningsdrift.
+                Med CXweb formindsker i risici for fejl og forsinkelser i byggeriet.
+                Derudover sikres det at data overleveres til driften i et brugbart format.</p>
+            <a class="btn btn-dark btn-lg " id="btnboxicon" role="button">Hvad kan CXWeb</a>
         </div>
     </div>
 
-    <div class="card bg-warning">
-        <div class="card-body text-center">
-            <img src="img/Struktureret%20Icons-60.png">
-            <p class="card-text">Some text inside the second card</p>
+    <div class="card text-center">
+        <div class="card-body  text-center">
+            <img src="img/Struktureret%20Icons-60.png" alt="indkøbsvogn">
+            <div class="O-bestillinger"><h2>Bestillinger</h2></div>
+            <p class="card-text">Skal i til at udføre commissioning på et byggeri eller ønsker i at højne de tekniske kompetencer
+                for den kommende driftsorganisation, så kontakt os i dag og få et uforpligtende tilbud.</p>
+            <a class="btn btn-dark btn-lg " id="btnindkøbskurv" role="button">Prøv CXWeb</a>
         </div>
     </div>
 
-    <div class="card bg-success">
-        <div class="card-body text-center">
-            <img src="img/Struktureret%20Icons-143.png">
-            <p class="card-text">Some text inside the third card</p>
+    <div class="card">
+        <div class="card-body  text-center">
+            <img src="img/Struktureret%20Icons-143.png" alt="referencer">
+            <div class="O-referencer"><h2>Referencer</h2></div>
+            <p class="card-text">CXweb er en veltestet platform der er i brug i den danske byggebranche.
+                Platformen er testet på projekter fra 10 millioner til 5 milliarder i anlægssum.
+                Læs om et udpluk af vores referencer.</p>
+
+            <a class="btn btn-dark btn-lg " id="btnreferencer" role="button">Hvem bruger CXWeb</a>
+
         </div>
     </div>
 
@@ -164,15 +185,16 @@
 <hr class="my-4">
 
 
+<!-- Carousel !-->
+
+
+
+
 <!-- footer !-->
 
-<div class="card-footer">
+<footer class="card-footer">
 
-
-</div>
-
-
-<!-- js links !-->
+</footer>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>

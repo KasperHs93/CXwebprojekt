@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Css links !-->
+    <script src="https://kit.fontawesome.com/9fb770a5e5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -26,17 +27,17 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse  mx-auto justify-content-md-center" id="navbarNavDropdown">
 
-        <ul class="navbar-nav m-auto ">
+        <ul class="navbar-nav m-auto">
 
-            <li class="nav-item active">
+            <li class="nav-item ">
                 <a class="nav-link" href="index.html">Forside <span class="sr-only">(current)</span></a>
             </li>
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    |  Produkter
+                    Produkter
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -48,7 +49,7 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    |  Comissioning
+                    Comissioning
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -60,7 +61,7 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    |  Om CXWeb
+                    Om CXWeb
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -72,12 +73,12 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="kontakt.html">|  Kontakt</a>
+                <a class="nav-link" href="kontakt.html"> Kontakt</a>
             </li>
         </ul>
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="logind.html">|  Log ind</a>
+                <a class="nav-link" href="logind.html"> Log ind</a>
             </li>
         </ul>
 
@@ -86,8 +87,113 @@
 
 </nav>
 
-</nav>
 
+
+<!-- kontaktside indhold !-->
+
+<form class="container bg-light mt-5">
+
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center">Kontakt</h2>
+    <hr class="my-4">
+
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto "></p>
+
+    <div class="row ">
+
+        <!--Grid column-->
+        <div class="col-md-9 mb-md-0 ">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-6 ">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Dit Navn</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Din Email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Emne</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+
+                    <!--Grid column-->
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                            <label for="message">Besked</label>
+                        </div>
+
+                    </div>
+                </div>
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left mb-5">
+                <a class="btn btn-dark" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+        <!--Grid column-->
+        <div class="col-md-3 text-center">
+
+            <ul class="list-unstyled">
+                <div class="followfacebook">Følg os</div>
+                <hr class="my-4">
+                <li><a href="#" class="fab fa-linkedin fa-3x"></a></li>
+              <li><a href="#" class="fab fa-facebook-square fa-3x"></a></li>
+                <div class="followlinkedin mt-2">Kontakt oplysninger</div>
+               <hr class="my-4">
+              <li class="">info@cxweb.dk</li>
+              <li>CVR: 38585592</li>
+                <li>Fruebjergvej 3, 2100 København Ø</li>
+                <li>Slotsbryggen 14, 4800 Nykøbing Falster</li>
+                <li>+45 2571 1171</li>
+            </ul>
+
+        </div>
+
+
+        <!--Grid column-->
+
+    </div>
+
+</form>
+<!--Section: Contact v.2-->
+
+
+
+<!-- footer !-->
 
 
 
