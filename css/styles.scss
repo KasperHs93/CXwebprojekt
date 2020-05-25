@@ -56,10 +56,53 @@
 
 
 // styling til Licenstyper //
+
+
 // styling til Licenstyper slut //
 
 
 // styling til Support //
+.collapsible {
+  background-color: rgba(119, 119, 119, 0.61);
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.colapsible-3 {
+  margin-top: 25px;
+}
+
 // styling til Support slut //
 
 
