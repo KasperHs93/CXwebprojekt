@@ -43,7 +43,8 @@
   }
 }
 
-#btnjumbo1, #btnjumbo2, #btnboxicon, #btnindkøbskurv, #btnreferencer {
+// button styling //
+#btnjumbo1, #btnjumbo2, #btnboxicon, #btnindkøbskurv, #btnreferencer, #btnacc1, #btnacc2 {
   color: white;
   align-content: center!important;
 }
@@ -74,7 +75,7 @@
 
 // styling til Support //
 .collapsible {
-  background-color: rgba(119, 119, 119, 0.61);
+  background-color: lightgrey;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -86,13 +87,10 @@
   font-weight: bold;
 }
 
-.active, .collapsible:hover {
-  background-color: #555;
-}
 
 .collapsible:after {
   content: '\002B';
-  color: white;
+  color: black;
   font-weight: bold;
   float: right;
   margin-left: 5px;
@@ -106,7 +104,7 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  background-color: #f1f1f1;
+  background-color: white!important;
   text-align: center;
 }
 
@@ -196,3 +194,22 @@
   padding: 15px 15px 10px;
 }
 // styling til log ind slut //
+
+
+// styling af footer //
+
+#footer1, #footer2, #footer3, #footer4, .footerlinks {
+  color: white;
+  font-weight: bold;
+  text-decoration: none!important;
+}
+
+.card-footer {
+  background-color: black;
+}
+
+
+// accordion //
+#kravs, #eksportering, #Tjek, #Prjektweb, #Vejledninger, #eksempler, #kalender {
+  color: black;
+}
