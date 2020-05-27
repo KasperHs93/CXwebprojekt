@@ -1,5 +1,5 @@
 
-// Javascript til Accordions på Supportside //
+// Javascript til Accordions //
 const coll = document.getElementsByClassName("collapsible");
 let i;
 
