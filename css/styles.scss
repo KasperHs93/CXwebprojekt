@@ -35,7 +35,7 @@
 
 // media queries //
 
-@media only screen and (max-width: 425px) {
+@media only screen and  (min-width: 320px) and (max-width: 765px){
 
   #Mig {
     display: none;
@@ -44,15 +44,14 @@
   .list-unstyled {
     margin-top: 60px !important;
   }
-
 }
 
-// media querie til tablet  //
+// media query til tablet  //
 
-@media only screen and  (min-width: 760px) and (max-width: 1024px){
+@media only screen and  (min-width: 768px) and (max-width: 1024px){
 
   #Mig {
-    width: 380px;
+    width: 360px;
     height: 280px;
   }
 
